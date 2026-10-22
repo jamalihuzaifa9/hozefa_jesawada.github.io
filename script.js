@@ -1,11 +1,22 @@
 const publications = [
   {
     year: 2026,
-    type: "preprint",
+    type: "journal",
+    title: "A Novel PID Design Method via Model-Based Reinforcement Learning Algorithms",
+    authors: "<strong>Hozefa Jesawada</strong>, Amol Yerudkar, Yang Liu, Navdeep Singh, Carmen Del Vecchio",
+    venue: "IEEE Transactions on Automation Science and Engineering, 2026",
+    links: [
+      { label: "DOI", url: "https://doi.org/10.1109/TASE.2026.3681666" }
+    ]
+  },
+  {
+    year: 2026,
+    type: "conference",
     title: "Learning-Based Robust Control: Unifying Exploration and Distributional Robustness for Reliable Robotics via Free Energy",
     authors: "<strong>Hozefa Jesawada</strong>, Giovanni Russo, Abdalla Swikir, Fares Abu-Dakka",
-    venue: "arXiv preprint, 2026",
+    venue: "IEEE International Conference on Robotics and Automation (ICRA), 2026",
     links: [
+      { label: "DOI", url: "https://doi.org/10.1109/ICRA57385.2026.11696049" },
       { label: "arXiv", url: "https://arxiv.org/abs/2603.06831" }
     ]
   },
@@ -80,10 +91,65 @@ const publications = [
     links: [
       { label: "DOI", url: "https://doi.org/10.1109/ACCESS.2022.3230093" }
     ]
+  },
+  {
+    year: 2021,
+    type: "conference",
+    title: "Adaptive Control of Nonlinear Systems: Parametric and Non-Parametric Approach",
+    authors: "<strong>Hozefa Jesawada</strong>, S. Shadab, G. Revati, S. R. Wagh, N. M. Singh",
+    venue: "Mediterranean Conference on Control and Automation (MED), 2021",
+    links: [
+      { label: "DOI", url: "https://doi.org/10.1109/MED51440.2021.9480230" }
+    ]
+  },
+  {
+    year: 2021,
+    type: "conference",
+    title: "Smart Building Energy Management: Load Profile Prediction using Machine Learning",
+    authors: "G. Revati, <strong>Hozefa Jesawada</strong>, S. Shadab, A. Sheikh, S. R. Wagh, N. M. Singh",
+    venue: "Mediterranean Conference on Control and Automation (MED), 2021",
+    links: [
+      { label: "DOI", url: "https://doi.org/10.1109/MED51440.2021.9480170" }
+    ]
+  },
+  {
+    year: 2020,
+    type: "conference",
+    title: "Parameter Convergence for Adaptive Control in Nonlinear System",
+    authors: "S. Shadab, <strong>Hozefa Jesawada</strong>, S. R. Wagh, N. M. Singh",
+    venue: "Australian and New Zealand Control Conference (ANZCC), 2020",
+    links: [
+      { label: "DOI", url: "https://doi.org/10.1109/ANZCC50923.2020.9318333" }
+    ]
   }
 ];
 
 const newsItems = [
+  {
+    date: "Fall 2026",
+    title: "Teaching the Mechatronics Lab",
+    text: "Teaching assistant for ENGR-UH 4145 Mechatronics Lab at NYU Abu Dhabi, the hands-on lab paired with ENGR-UH 4140 Mechatronics."
+  },
+  {
+    date: "Aug 2026",
+    title: "Invited talk at IISc Bengaluru",
+    text: "Gave an invited talk in the CORAL (COntrol, Robotics, Autonomy & Learning) Talk Series at the Indian Institute of Science (IISc), Bengaluru."
+  },
+  {
+    date: "Jun 2026",
+    title: "Paper at ICRA 2026",
+    text: "The learning-based robust control framework that unifies exploration and distributional robustness appeared at IEEE ICRA 2026 in Vienna."
+  },
+  {
+    date: "2026",
+    title: "Associate Editor for ICRA 2027 and IROS 2026",
+    text: "Serving as Associate Editor for the IEEE International Conference on Robotics and Automation (ICRA 2027) and the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026)."
+  },
+  {
+    date: "2026",
+    title: "IEEE T-ASE publication",
+    text: "Published a PID design method based on model-based reinforcement learning in IEEE Transactions on Automation Science and Engineering."
+  },
   {
     date: "Mar 2026",
     title: "New preprint on reliable robotics via free energy",
@@ -115,10 +181,10 @@ const experiences = [
   {
     date: "Jul 2025 – Present",
     title: "Postdoctoral Associate · NYU Abu Dhabi",
-    text: "Embodied intelligence for robotic manipulation, formal guarantees for soft robotics, and geometric methods for robot learning and control."
+    text: "Embodied intelligence for robotic manipulation, formal guarantees for soft robotics, and geometric methods for robot learning and control. Teaching assistant for the Mechatronics Lab (ENGR-UH 4145), Fall 2026."
   },
   {
-    date: "Nov 2024 – Jun 2025",
+    date: "Nov 2024 – Jul 2025",
     title: "Research Fellow · University of Salerno",
     text: "Worked on collaborative robotic agents using LLMs and on distributionally robust sequential decision-making via free-energy principles."
   },
