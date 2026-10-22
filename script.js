@@ -44,12 +44,13 @@ const publications = [
   },
   {
     year: 2025,
-    type: "preprint",
+    type: "journal",
     title: "DR-PETS: Learning-Based Control With Planning in Adversarial Environments",
-    authors: "<strong>Hozefa Jesawada</strong>, Antonio Acernese, Giovanni Russo, Carmen Del Vecchio",
-    venue: "arXiv preprint, 2025",
+    authors: "<strong>Hozefa Jesawada</strong>, Antonio Acernese, Davide Del Vecchio, Giovanni Russo, Carmen Del Vecchio",
+    venue: "IEEE Control Systems Letters, 2025",
     links: [
-      { label: "arXiv", url: "https://arxiv.org/html/2503.20660v2" }
+      { label: "DOI", url: "https://doi.org/10.1109/LCSYS.2025.3587053" },
+      { label: "arXiv", url: "https://arxiv.org/abs/2503.20660" }
     ]
   },
   {
@@ -169,6 +170,11 @@ const newsItems = [
     date: "2025",
     title: "Nature Communications publication",
     text: "Published work on the distributionally robust free energy principle for decision-making."
+  },
+  {
+    date: "2025",
+    title: "IEEE Control Systems Letters publication",
+    text: "Published DR-PETS, a learning-based control method with distributionally robust planning in adversarial environments."
   },
   {
     date: "2025",
